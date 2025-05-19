@@ -1,0 +1,901 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "easy_gunpowder",
+        "name": "Easy Gunpowder",
+        "authors": [ "Maepple" ],
+        "description": "Makes gunpowder easier to use by allowing mixed smokeless powder to be used in crafting recipes.",
+        "category": "accessibility",
+        "dependencies": [ "tlg" ]
+    },
+  {
+    "result": "reloaded_32_acp",
+    "type": "recipe",
+    "copy-from": "reloaded_32_acp",
+    "components": [ [ [ "gunpowder_pistol", 2 ], [ "gunpowder_shotgun", 2 ], [ "gunpowder", 2 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_32_acp_jhp",
+    "type": "recipe",
+    "copy-from": "reloaded_32_acp_jhp",
+    "components": [ [ [ "gunpowder_pistol", 2 ], [ "gunpowder_shotgun", 2], ["gunpowder", 3] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_38_fmj",
+    "type": "recipe",
+    "copy-from": "reloaded_38_fmj",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 4 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_38_special",
+    "type": "recipe",
+    "copy-from": "reloaded_38_special",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3], [ "gunpowder", 4 ] ] ]
+  },
+  {
+    "result": "reloaded_38_special_p",
+    "type": "recipe",
+    "copy-from": "reloaded_38_special_p",
+    "components": [ [ [ "gunpowder_pistol", 4 ], [ "gunpowder_shotgun", 4 ], [ "gunpowder", 5 ] ] ]
+  },
+  {
+    "result": "reloaded_357sig_fmj",
+    "type": "recipe",
+    "copy-from": "reloaded_357sig_jhp",
+    "components": [ [ [ "gunpowder_rifle", 4 ], [ "gunpowder_magnum_pistol", 4 ], [ "gunpowder", 5 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_357sig_jhp",
+    "type": "recipe",
+    "copy-from": "reloaded_357sig_jhp",
+    "components": [ [ [ "gunpowder_rifle", 5 ], [ "gunpowder_magnum_pistol", 5 ], [ "gunpowder", 6 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_357mag_fmj",
+    "type": "recipe",
+    "copy-from": "reloaded_357mag_fmj",
+    "components": [ [ [ "gunpowder_rifle", 5 ], [ "gunpowder_magnum_pistol", 5 ], [ "gunpowder", 6 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_357mag_jhp",
+    "type": "recipe",
+    "copy-from": "reloaded_357mag_jhp",
+    "components": [ [ [ "gunpowder_rifle", 5 ], [ "gunpowder_magnum_pistol", 5 ], [ "gunpowder", 6 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_40fmj",
+    "type": "recipe",
+    "copy-from": "reloaded_40fmj",
+    "components": [
+      [ [ "40_casing", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 5 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_40sw",
+    "type": "recipe",
+    "copy-from": "reloaded_40sw",
+    "components": [
+      [ [ "40_casing", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 6 ], [ "gunpowder_shotgun", 6 ], [ "gunpowder", 7 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_10mmP",
+    "type": "recipe",
+    "copy-from":"reloaded_10mmP",
+    "components": [ [ [ "gunpowder_magnum_pistol", 5 ], [ "gunpowder", 6 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_10mm_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_10mm_fmj",
+    "components": [ [ [ "gunpowder_magnum_pistol", 3 ], [ "gunpowder", 5 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_10mm_jhp",
+    "type": "recipe",
+    "copy-from":"reloaded_10mm_jhp",
+    "components": [ [ [ "gunpowder_magnum_pistol", 3 ], [ "gunpowder", 5 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_44fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_44fmj",
+    "components": [
+      [ [ "44_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 7 ], [ "gunpowder_magnum_pistol", 7 ], [ "gunpowder", 8 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_44magnum",
+    "type": "recipe",
+    "copy-from":"reloaded_44magnum",
+    "components": [
+      [ [ "44_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 7 ], [ "gunpowder_magnum_pistol", 7 ], [ "gunpowder", 8 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_45_acp",
+    "type": "recipe",
+    "copy-from":"reloaded_45_acp",
+    "components": [
+      [ [ "45_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 4 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_45_jhp",
+    "type": "recipe",
+    "copy-from":"reloaded_45_jhp",
+    "components": [
+      [ [ "45_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 5 ], [ "gunpowder_shotgun", 5 ], [ "gunpowder", 6 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_45_super",
+    "type": "recipe",
+    "copy-from":"reloaded_45_super",
+    "components": [ [ [ "45_casing", 1 ] ], [ [ "lgpistol_primer", 1 ] ], [ [ "gunpowder_pistol", 5 ], [ "gunpowder", 6 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_454_Casull",
+    "type": "recipe",
+    "copy-from":"reloaded_454_Casull",
+    "components": [
+      [ [ "454_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 16 ], [ "gunpowder_magnum_pistol", 16 ], [ "gunpowder", 20 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_45colt_jhp",
+    "type": "recipe",
+    "copy-from":"reloaded_45colt_jhp",
+    "components": [ [ [ "gunpowder_pistol", 5 ], [ "gunpowder_shotgun", 5 ], [ "gunpowder", 6 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_45colt_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_45colt_fmj",
+    "components": [ [ [ "gunpowder_pistol", 5 ], [ "gunpowder_shotgun", 5 ], [ "gunpowder", 6 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_45colt_cowboy",
+    "type": "recipe",
+    "copy-from":"reloaded_45colt_cowboy",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 5 ] ] ]
+  },
+  {
+    "result": "reloaded_46mm",
+    "type": "recipe",
+    "copy-from": "reloaded_46mm",
+    "components": [ [ [ "46mm_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "gunpowder_pistol", 4 ], [ "gunpowder", 8 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_460_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_460_fmj",
+    "components": [
+      [ [ "460_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 8 ], [ "gunpowder_magnum_pistol", 8 ], [ "gunpowder", 10 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+    {
+    "result": "reloaded_460_rowland",
+    "type": "recipe",
+    "copy-from":"reloaded_460_rowland",
+    "components": [
+      [ [ "460_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 8 ], [ "gunpowder_magnum_pistol", 8 ], [ "gunpowder", 10 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_500_Magnum",
+    "type": "recipe",
+    "copy-from":"reloaded_500_Magnum",
+    "components": [
+      [ [ "500_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 19 ], [ "gunpowder_magnum_pistol", 19 ], [ "gunpowder", 24 ] ],
+      [ [ "copper", 5 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_50ae_jhp",
+    "type": "recipe",
+    "copy-from":"reloaded_50ae_jhp",
+    "components": [
+      [ [ "50ae_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 16 ], [ "gunpowder_magnum_pistol", 16 ], [ "gunpowder", 20 ] ],
+      [ [ "copper", 5 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_50ae_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_50ae_fmj",
+    "components": [
+      [ [ "50ae_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 16 ], [ "gunpowder_magnum_pistol", 16 ], [ "gunpowder", 20 ] ],
+      [ [ "copper", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_57mm",
+    "type": "recipe",
+    "copy-from":"reloaded_57mm",
+    "components": [ [ [ "57mm_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder_pistol", 4 ], [ "gunpowder", 5 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_762_25",
+    "type": "recipe",
+    "copy-from":"reloaded_762_25",
+    "components": [ [ [ "gunpowder_pistol", 4 ], [ "gunpowder", 5] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_9mm",
+    "type": "recipe",
+    "copy-from":"reloaded_9mm",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 5 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_9mmP",
+    "type": "recipe",
+    "copy-from":"reloaded_9mmP",
+    "components": [ [ [ "gunpowder_pistol", 5 ], [ "gunpowder", 6 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_9mmP2",
+    "type": "recipe",
+    "copy-from":"reloaded_9mmP2",
+    "components": [ [ [ "gunpowder_pistol", 6 ], [ "gunpowder", 8 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_9mmfmj",
+    "type": "recipe",
+    "copy-from":"reloaded_9mmfmj",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 4 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_9x18mm",
+    "type": "recipe",
+    "copy-from": "reloaded_9x18mm",
+    "components": [
+      [ [ "9x18mm_casing", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 4 ], [ "gunpowder_shotgun", 4 ], [ "gunpowder", 5 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_9x18mmfmj",
+    "type": "recipe",
+    "copy-from":"reloaded_9x18mmfmj",
+    "components": [
+      [ [ "9x18mm_casing", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 4 ], [ "gunpowder_shotgun", 4 ], [ "gunpowder", 5 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_9x18mmP2",
+    "type": "recipe",
+    "copy-from":"reloaded_9x18mmP2",
+    "components": [
+      [ [ "9x18mm_casing", 1 ] ],
+      [ [ "smpistol_primer", 1 ] ],
+      [ [ "gunpowder_pistol", 5 ], [ "gunpowder_shotgun", 5 ], [ "gunpowder", 6 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_38super_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_38super_fmj",
+    "components": [ [ [ "gunpowder_pistol", 4 ], [ "gunpowder_shotgun", 4 ], [ "gunpowder", 5 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_38_super",
+    "type": "recipe",
+    "copy-from": "reloaded_38_super",
+    "components": [ [ [ "gunpowder_pistol", 4 ], [ "gunpowder_shotgun", 4 ], [ "gunpowder", 5 ]  ] ]
+  },
+  {
+    "result": "reloaded_380_JHP",
+    "type": "recipe",
+    "copy-from":"reloaded_380_JHP",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 5 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_380_p",
+    "type": "recipe",
+    "copy-from":"reloaded_380_p",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 5 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_380_FMJ",
+    "type": "recipe",
+    "copy-from":"reloaded_380_FMJ",
+    "components": [ [ [ "gunpowder_pistol", 3 ], [ "gunpowder_shotgun", 3 ], [ "gunpowder", 5 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_22_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_22_fmj",
+    "components": [ [ [ "22_casing_new", 1 ] ], [ [ "gunpowder_pistol", 1 ], [ "gunpowder", 1 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_22_lr",
+    "type": "recipe",
+    "copy-from":"reloaded_22_lr",
+    "components": [ [ [ "22_casing_new", 1 ] ], [ [ "gunpowder_pistol", 1 ], [ "gunpowder", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_223",
+    "type": "recipe",
+    "copy-from":"reloaded_223",
+    "components": [
+      [ [ "223_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 15 ], [ "gunpowder_rifle", 15 ], [ "gunpowder", 20 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+    {
+    "result": "reloaded_270win_jsp",
+    "type": "recipe",
+    "copy-from":"reloaded_270win_jsp",
+    "components": [ [ [ "gunpowder_magnum_pistol", 30 ], [ "gunpowder_rifle", 30 ], [ "gunpowder", 35 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_270win_fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_270win_fmj",
+    "components": [ [ [ "gunpowder_magnum_pistol", 30 ], [ "gunpowder_rifle", 30 ], [ "gunpowder", 35 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_300_winmag",
+    "type": "recipe",
+    "copy-from":"reloaded_300_winmag",
+    "components": [
+      [ [ "300_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 43 ], [ "gunpowder_large_rifle", 43 ], [ "gunpowder", 47 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+    {
+    "result": "reloaded_3006",
+    "type": "recipe",
+    "copy-from":"reloaded_3006",
+    "components": [ [ [ "gunpowder_rifle", 32 ], [ "gunpowder_large_rifle", 32 ], [ "gunpowder", 37 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_3006_jsp",
+    "type": "recipe",
+    "copy-from":"reloaded_3006_jsp",
+    "components": [ [ [ "gunpowder_rifle", 32 ], [ "gunpowder_large_rifle", 32 ], [ "gunpowder", 37 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_3006fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_3006fmj",
+    "components": [ [ [ "gunpowder_rifle", 32 ], [ "gunpowder_large_rifle", 32 ], [ "gunpowder", 37 ] ], [ [ "scrap", 1 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_3006_incendiary",
+    "type": "recipe",
+    "copy-from":"reloaded_3006_incendiary",
+    "components": [
+      [ [ "gunpowder_magnum_pistol", 32 ], [ "gunpowder_rifle", 32 ], [ "gunpowder_large_rifle", 32 ], [ "gunpowder", 37 ] ],
+      [ [ "copper", 2 ] ],
+      [ [ "incendiary", 8 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_308",
+    "type": "recipe",
+    "copy-from":"reloaded_308",
+    "components": [
+      [ [ "gunpowder_magnum_pistol", 27 ], [ "gunpowder_rifle", 27 ], [ "gunpowder_large_rifle", 27 ], [ "gunpowder", 32 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_308",
+    "id_suffix": "from_762x51",
+    "type": "recipe",
+    "copy-from":"reloaded_308",
+    "components": [
+      [ [ "gunpowder_magnum_pistol", 26 ], [ "gunpowder_rifle", 26 ], [ "gunpowder_large_rifle", 26 ], [ "gunpowder", 31 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_4570_sp",
+    "type": "recipe",
+    "copy-from":"reloaded_4570_sp",
+    "components": [
+      [ [ "4570_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 28 ], [ "gunpowder_magnum_pistol", 28 ], [ "gunpowder", 31 ] ],
+      [ [ "lead", 5 ] ],
+      [ [ "copper", 3 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_4570_pen",
+    "type": "recipe",
+    "copy-from":"reloaded_4570_pen",
+    "components": [
+      [ [ "4570_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 30 ], [ "gunpowder_rifle", 30 ], [ "gunpowder", 38 ] ],
+      [ [ "copper", 5 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_4570_low",
+    "type": "recipe",
+    "copy-from":"reloaded_4570_low",
+    "components": [
+      [ [ "4570_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 19 ], [ "gunpowder_rifle", 19 ], [ "gunpowder", 25 ] ],
+      [ [ "copper", 3 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_5x50dart",
+    "type": "recipe",
+    "copy-from":"reloaded_5x50dart",
+    "components": [
+      [ [ "5x50_hull", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder", 30 ], [ "gunpowder_magnum_pistol", 30 ], [ "gunpowder", 35 ] ],
+      [ [ "combatnail", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_50bmg",
+    "type": "recipe",
+    "copy-from":"reloaded_50bmg",
+    "components": [ [ [ "50_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder_large_rifle", 158 ], [ "gunpowder", 192 ] ], [ [ "copper", 6 ] ] ]
+  },
+  {
+    "result": "reloaded_50_incendiary",
+    "type": "recipe",
+    "copy-from":"reloaded_50_incendiary",
+    "components": [
+      [ [ "50_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_large_rifle", 158 ], [ "gunpowder", 192 ] ],
+      [ [ "copper", 6 ] ],
+      [ [ "incendiary", 20 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_50ss",
+    "type": "recipe",
+    "copy-from":"reloaded_50ss",
+    "components": [
+      [ [ "50_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_large_rifle", 158 ], [ "gunpowder", 172 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "copper", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_545",
+    "type": "recipe",
+    "copy-from":"reloaded_545",
+    "components": [
+      [ [ "545_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 13 ], [ "gunpowder_rifle", 13 ], [ "gunpowder", 17 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_545_ap",
+    "type": "recipe",
+    "copy-from":"reloaded_545_ap",
+    "components": [
+      [ [ "545_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 13 ], [ "gunpowder_rifle", 13 ], [ "gunpowder", 17 ] ],
+      [ [ "copper", 1 ] ]
+    ]
+  },
+    {
+    "result": "reloaded_300blk",
+    "type": "recipe",
+    "copy-from":"reloaded_300blk",
+    "components": [ [ [ "gunpowder_rifle", 11 ], [ "gunpowder", 15 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_300blk_ss",
+    "type": "recipe",
+    "copy-from":"reloaded_300blk_ss",
+    "components": [ [ [ "gunpowder_rifle", 6 ], [ "gunpowder", 8 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_556",
+    "type": "recipe",
+    "copy-from":"reloaded_556",
+    "components": [
+      [ [ "223_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 17 ], [ "gunpowder_rifle", 17 ], [ "gunpowder", 21 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_556_incendiary",
+    "type": "recipe",
+    "copy-from": "reloaded_556_incendiary",
+    "components": [
+      [ [ "223_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 17 ], [ "gunpowder_magnum_pistol", 17 ], [ "gunpowder", 21 ] ],
+      [ [ "copper", 1 ] ],
+      [ [ "incendiary", 2 ] ]
+    ]
+  },
+    {
+    "result": "reloaded_458wm",
+    "type": "recipe",
+    "copy-from":"reloaded_458wm",
+    "components": [ [ [ "gunpowder_large_rifle", 43 ], [ "gunpowder", 47 ] ], [ [ "copper", 10 ] ] ]
+  },
+  {
+    "result": "reloaded_762_51",
+    "type": "recipe",
+    "copy-from":"reloaded_762_51",
+    "components": [ [ [ "gunpowder_rifle", 28 ], [ "gunpowder_magnum_pistol", 28 ], [ "gunpowder", 34 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_762_51",
+    "id_suffix": "from_308",
+    "type": "recipe",
+    "copy-from":"reloaded_762_51",
+    "components": [ [ [ "gunpowder_rifle", 29 ], [ "gunpowder_magnum_pistol", 29 ], [ "gunpowder", 35 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_762_51_incendiary",
+    "id_suffix": "from_308",
+    "type": "recipe",
+    "copy-from":"reloaded_762_51_incendiary",
+    "components": [
+      [ [ "gunpowder_magnum_pistol", 29 ], [ "gunpowder_rifle", 29 ], [ "gunpowder_large_rifle", 29 ], [ "gunpowder", 35 ] ],
+      [ [ "copper", 2 ] ],
+      [ [ "incendiary", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_762_54R",
+    "type": "recipe",
+    "copy-from":"reloaded_762_54R",
+    "components": [
+      [ [ "762R_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 29 ], [ "gunpowder_rifle", 29 ], [ "gunpowder_large_rifle", 29 ], [ "gunpowder", 37 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_762_m87",
+    "type": "recipe",
+    "copy-from":"reloaded_762_m87",
+    "components": [
+      [ [ "762_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 15 ], [ "gunpowder_rifle", 15 ], [ "gunpowder", 22 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_762_jhp",
+    "type": "recipe",
+    "copy-from":"reloaded_762_jhp",
+    "components": [
+      [ [ "762_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 15 ], [ "gunpowder_rifle", 15 ], [ "gunpowder", 22 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_303",
+    "type": "recipe",
+    "copy-from":"reloaded_303",
+    "components": [ [ [ "gunpowder_rifle", 31 ], [ "gunpowder_large_rifle", 31 ], [ "gunpowder", 36 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_303fmj",
+    "type": "recipe",
+    "copy-from":"reloaded_303fmj",
+    "components": [ [ [ "gunpowder_rifle", 31 ], [ "gunpowder_large_rifle", 31 ], [ "gunpowder", 36 ] ], [ [ "copper", 2 ] ] ]
+  },
+  {
+    "result": "reloaded_303sp",
+    "type": "recipe",
+    "copy-from":"reloaded_303sp",
+    "components": [ [ [ "gunpowder_rifle", 31 ], [ "gunpowder_large_rifle", 31 ], [ "gunpowder", 36 ] ], [ [ "copper", 2 ] ] ]
+  },
+    {
+    "result": "reloaded_77mm_arisaka_jsp",
+    "type": "recipe",
+    "copy-from":"reloaded_77mm_arisaka_jsp",
+    "components": [
+      [ [ "77arisaka_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 37 ], [ "gunpowder_large_rifle", 37 ], [ "gunpowder", 42 ] ],
+      [ [ "lead", 3 ] ],
+      [ [ "copper", 3 ] ]
+    ]
+  },
+    {
+    "result": "reloaded_30carbine",
+    "type": "recipe",
+    "copy-from":"reloaded_30carbine",
+    "components": [ [ [ "gunpowder_magnum_pistol", 10 ], [ "gunpowder_rifle", 10 ], [ "gunpowder", 15 ]  ], [ [ "copper", 1 ] ] ]
+  },
+    {
+    "result": "reloaded_30carbine_jsp",
+    "type": "recipe",
+    "copy-from":"reloaded_30carbine_jsp",
+    "components": [ [ [ "gunpowder_magnum_pistol", 10 ], [ "gunpowder_rifle", 10 ], [ "gunpowder", 15 ]  ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "result": "reloaded_50beowulf_xtp",
+    "type": "recipe",
+    "copy-from":"reloaded_50beowulf_xtp",
+    "components": [
+      [ [ "50beowulf_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 17 ], [ "gunpowder_magnum_pistol", 17 ], [ "gunpowder", 21 ] ],
+      [ [ "lead", 5 ] ],
+      [ [ "copper", 3 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_50beowulf_penetrator",
+    "type": "recipe",
+    "copy-from":"reloaded_50beowulf_penetrator",
+    "components": [
+      [ [ "50beowulf_casing", 1 ] ],
+      [ [ "lgpistol_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 21 ], [ "gunpowder_rifle", 21 ], [ "gunpowder", 25 ] ],
+      [ [ "copper", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_450_ftx",
+    "type": "recipe",
+    "copy-from":"reloaded_450_ftx",
+    "components": [
+      [ [ "450_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 37 ], [ "gunpowder_magnum_pistol", 37 ], [ "gunpowder", 44 ] ],
+      [ [ "lead", 5 ] ],
+      [ [ "copper", 3 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_450_penetrator",
+    "type": "recipe",
+    "copy-from":"reloaded_450_penetrator",
+    "components": [
+      [ [ "450_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder_magnum_pistol", 34 ], [ "gunpowder_rifle", 34 ], [ "gunpowder", 38 ] ],
+      [ [ "copper", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_338lapua_hpbt",
+    "type": "recipe",
+    "copy-from":"reloaded_338lapua_hpbt",
+    "components": [
+      [ [ "338lapua_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_large_rifle", 58 ], [ "gunpowder", 64 ]  ],
+      [ [ "lead", 5 ] ],
+      [ [ "copper", 3 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_338lapua_fmjbt",
+    "type": "recipe",
+    "copy-from":"reloaded_338lapua_fmjbt",
+    "components": [
+      [ [ "338lapua_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_large_rifle", 58 ], [ "gunpowder", 64 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "copper", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_338lapua_api",
+    "type": "recipe",
+    "copy-from":"reloaded_338lapua_api",
+    "components": [
+      [ [ "338lapua_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_large_rifle", 58 ], [ "gunpowder", 64 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "copper", 3 ] ],
+      [ [ "incendiary", 6 ] ]
+    ]
+  },
+  {
+    "result": "reloaded_shot_00",
+    "type": "recipe",
+    "copy-from":"reloaded_shot_00",
+    "components": [ [ [ "gunpowder_pistol", 12 ], [ "gunpowder_shotgun", 12 ], [ "gunpowder", 16 ] ] ]
+  },
+  {
+    "result": "reloaded_shot_bird",
+    "type": "recipe",
+    "copy-from":"reloaded_shot_bird",
+    "components": [ [ [ "gunpowder_pistol", 15 ], [ "gunpowder_shotgun", 15 ], [ "gunpowder", 19 ] ] ]
+  },
+  {
+    "result": "reloaded_shot_dragon",
+    "type": "recipe",
+    "copy-from":"reloaded_shot_dragon",
+    "components": [ [ [ "gunpowder_pistol", 15 ], [ "gunpowder_shotgun", 15 ], [ "gunpowder", 19 ] ], [ [ "magnesium", 5 ] ] ]
+  },
+  {
+    "result": "reloaded_shot_flechette",
+    "type": "recipe",
+    "copy-from":"reloaded_shot_flechette",
+    "components": [ [ [ "gunpowder_pistol", 8 ], [ "gunpowder_shotgun", 8 ], [ "gunpowder", 12 ] ], [ [ "combatnail", 10 ] ] ]
+  },
+  {
+    "result": "reloaded_shot_slug",
+    "type": "recipe",
+    "copy-from":"reloaded_shot_slug",
+    "components": [ [ [ "gunpowder_pistol", 17 ], [ "gunpowder_shotgun", 17 ], [ "gunpowder", 21 ] ] ]
+  },
+    {
+    "result": "shot_scrap",
+    "type": "recipe",
+    "copy-from":"shot_scrap",
+    "components": [
+      [ [ "gunpowder_pistol", 12 ], [ "gunpowder_shotgun", 12 ], [ "gunpowder", 16 ] ],
+      [
+        [ "scrap", 1 ],
+        [ "nails", 5, "LIST" ],
+        [ "bb", 10 ],
+        [ "solder_wire", 5 ],
+        [ "platinum_small", 2 ],
+        [ "gold_small", 2 ],
+        [ "bearing", 3 ],
+        [ "lead", 4 ],
+        [ "silver_small", 4 ],
+        [ "bismuth", 4 ],
+        [ "shrapnel", 2 ]
+      ]
+    ]
+  },
+  {
+    "result": "reloaded_410shot_000",
+    "type": "recipe",
+    "copy-from":"reloaded_410shot_000",
+    "components": [ [ [ "gunpowder_pistol", 10 ], [ "gunpowder_shotgun", 10 ], [ "gunpowder", 13 ] ] ]
+  },
+  {
+    "result": "reloaded_410shot_slug",
+    "type": "recipe",
+    "copy-from":"reloaded_410shot_slug",
+    "components": [ [ [ "gunpowder_pistol", 10 ], [ "gunpowder_shotgun", 10 ], [ "gunpowder", 13 ] ] ]
+  },
+  {
+    "result": "reloaded_410shot_bird",
+    "type": "recipe",
+    "copy-from":"reloaded_410shot_bird",
+    "components": [ [ [ "gunpowder_pistol", 11 ], [ "gunpowder_shotgun", 11 ], [ "gunpowder", 14 ] ] ]
+  },
+  {
+    "result": "410shot_scrap",
+    "type": "recipe",
+    "copy-from":"410shot_scrap",
+    "components": [
+      [ [ "gunpowder_pistol", 10 ], [ "gunpowder_shotgun", 10 ], [ "gunpowder", 13 ] ],
+      [
+        [ "scrap", 1 ],
+        [ "nails", 4, "LIST" ],
+        [ "bb", 7 ],
+        [ "solder_wire", 4 ],
+        [ "platinum_small", 1 ],
+        [ "gold_small", 1 ],
+        [ "bearing", 2 ],
+        [ "lead", 3 ],
+        [ "silver_small", 3 ],
+        [ "bismuth", 3 ],
+        [ "shrapnel", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "AMMO",
+    "id": "cordite",
+    "category": "chems",
+    "price": "5 USD",
+    "price_postapoc": "20 USD",
+    "name": { "str_sp": "smokeless cordite" },
+    "symbol": "=",
+    "color": "green",
+    "description": "Firearm-quality cordite, home made composition leaves it lacking compared to pre-cataclysm factory produced powder, requires grinding to make grains more uniform before use.",
+    "container": "bottle_plastic",
+    "sealed": false,
+    "material": [ "powder" ],
+    "flags": [ "TINDER" ],
+    "volume": "250 ml",
+    "weight": "100 mg",
+    "ammo_type": "components",
+    "count": 4540,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+  "result": "cordite",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_AMMO",
+  "subcategory": "CSC_AMMO_COMPONENTS",
+  "skill_used": "chemistry",
+  "skills_required": [ [ "chemistry", 6 ] ],
+  "difficulty": 4,
+  "time": "20 m",
+  "charges": 10,
+  "book_learn": [ [ "recipe_bullets", 6 ],  [ "textbook_anarch", 4 ] ],
+  "//": "Knowledge of chemicals handling is in order.",
+  "proficiencies": [ { "proficiency": "prof_intro_chemistry" }, { "proficiency": "prof_inorganic_chemistry" } ],
+  "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "SIEVE", "level": 1 } ],
+  "using": [ [ "surface_heat", 25 ] ],
+  "components": [ [ [ "chem_nitric_acid", 20 ], [ "chem_sulphuric_acid", 20 ], [ "chem_glycerol", 10 ], [ "cotton_ball", 3 ], [ "chem_ethanol", 5 ], [ "chem_acetone",3] ] ]
+  },
+  {
+    "result": "gunpowder",
+    "type": "recipe",
+    "copy-from": "gunpowder",
+    "components": [
+      [
+        [ "gunpowder_shotgun", 10 ],
+        [ "gunpowder_pistol", 10 ],
+        [ "gunpowder_magnum_pistol", 10 ],
+        [ "gunpowder_rifle", 10 ],
+        [ "gunpowder_large_rifle", 10 ],
+        [ "gunpowder_artillery", 10 ],
+        [ "cordite", 10 ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "type": "MOD_INFO",
+        "id": "simple_gunpowder",
+        "name": "Simple Gunpowder",
+        "authors": [ "Maepple" ],
+        "description": "reduces all specialised powder (except artillery) into one powder",
+        "category": "accessibility",
+        "dependencies": [ "tlg" ]
+    },
+    {
+      "type": "AMMO",
+      "id": "gunpowder",
+      "copy-from": "gunpowder",
+      "name": { "str_sp": "smokeless gunpowder" },
+      "description": "Firearm-quality gunpowder for reloading ammunition.",
+      "sealed": true
+    },
+    {
+      "result": "gunpowder",
+      "type": "recipe",
+      "activity_level": "LIGHT_EXERCISE",
+      "category": "CC_AMMO",
+      "subcategory": "CSC_AMMO_COMPONENTS",
+      "skill_used": "chemistry",
+      "skills_required": [ [ "chemistry", 6 ] ],
+      "difficulty": 4,
+      "time": "20 m",
+      "charges": 10,
+      "book_learn": [ [ "recipe_bullets", 6 ],  [ "textbook_anarch", 4 ] ],
+      "//": "Knowledge of chemicals handling is in order.",
+      "proficiencies": [ { "proficiency": "prof_intro_chemistry" }, { "proficiency": "prof_inorganic_chemistry" } ],
+      "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "SIEVE", "level": 1 } ],
+      "using": [ [ "surface_heat", 25 ] ],
+      "components": [ [ [ "chem_nitric_acid", 20 ], [ "chem_sulphuric_acid", 20 ], [ "chem_glycerol", 10 ], [ "cotton_ball", 3 ], [ "chem_ethanol", 5 ], [ "chem_acetone",3] ] ]
+    },
+    {
+      "id": ["gunpowder_shotgun","gunpowder_pistol","gunpowder_magnum_pistol","gunpowder_rifle","gunpowder_large_rifle"],
+      "type": "MIGRATION",
+      "replace": "gunpowder"
+    }
+]
