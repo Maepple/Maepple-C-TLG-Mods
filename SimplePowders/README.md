@@ -1,4 +1,4 @@
-This is a mod for Cataclysm: the last generation to alter a ingame items.
+This is a mod for Cataclysm: the last generation to alter ingame items.
 
 To install, just drag the folder named SimplePowders into the mod folder of the game install, CTLG/data/mods
 
